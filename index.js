@@ -30,11 +30,12 @@ console.log('example task:', processFirstItem(['foo','bar'],function(str){return
   Study the code for counter1 and counter2, then answer the questions below.
   
   1. What is the difference between counter1 and counter2?
-  
+  //counter 1 code will only delcare within its scope while counter 2 uses the closure, and can access outside its scope to find the variable 
   2. Which of the two uses a closure? How can you tell?
-  
+  counter2 because its starts with a variable outside and then a function where this function can be nested inside of this function 
   3. In what scenario would the counter1 code be preferable? In what scenario would 
      counter2 be better?  
+     //counter 1 would work if your using only one counter maker within your project, while counter 2 will be helpful if your project needs to go more in depth with it such as a calculator 
 */
 
 // counter1 code
